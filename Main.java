@@ -8,7 +8,7 @@ public class Main {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the file name: ");
+        System.out.print("ENTER THE FILE NAME YOU WANT TO RUN (without extension):");
         String fileName = input.nextLine();
         input.close();
         try {
